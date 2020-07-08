@@ -10,7 +10,7 @@ class Song
     @artist = artist
     @genre = genre
     @@genres << @genre
-    @@artists << @artists
+    @@artists << @artist
   end
   
   def Song.genres
