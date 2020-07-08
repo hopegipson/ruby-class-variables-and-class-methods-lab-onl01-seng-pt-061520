@@ -11,8 +11,5 @@ class Song
     @genre = genre
   end
   
-  def genres
-   @@genres.each do {|genre| puts genre}
-  end
 
 end
