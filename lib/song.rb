@@ -22,7 +22,7 @@ class Song
   end
   
   def Song.genre_count
-    
+    @@genres.each do
   end
 
 end
