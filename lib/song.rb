@@ -13,11 +13,11 @@ class Song
     @@artists << @artists
   end
   
-  def genres
+  def Song.genres
     @@genres.uniq
   end
   
-  def artists
+  def Song.artists
     @@artists.uniq
   end
   
