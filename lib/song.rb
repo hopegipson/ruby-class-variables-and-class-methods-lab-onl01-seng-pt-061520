@@ -45,9 +45,8 @@ class Song
     artist_count
   end
   
-  def Song.song_count
-   countnum = @@count
-   countnum
+  def Song.count
+   @@count
   end
   
   
