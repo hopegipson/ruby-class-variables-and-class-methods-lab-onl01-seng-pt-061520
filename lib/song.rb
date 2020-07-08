@@ -17,6 +17,9 @@ class Song
     @@genres.uniq
   end
   
+  def artists
+    @@artists.uniq
+  end
   
 
 end
